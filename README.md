@@ -2,7 +2,7 @@
 ###### This is a simplified way to use opencv with python 3
 
 ##
-##### Raspberry pi
+#### Raspberry pi
 ###### Opencv has issues with raspberry pi. It works up to the point where it saves the video. I tested all combos of fourcc and save format but nothing would save after recording.
 ###### Python has a module called picamera that should work better. I might add a picamera version at a later point.
 ##
