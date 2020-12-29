@@ -7,7 +7,7 @@
 ###### Python has a module called picamera that should work better. I might add a picamera version at a later point.
 ##
 
-##### Installing
+#### Installing
 ```bash
 pip3 install --upgrade pip
 
@@ -20,7 +20,7 @@ sudo apt update
 sudo apt install python3-opencv
 ```
 
-##### Running
+#### Running
 ###### configuring main()
 ```python
 def main():
