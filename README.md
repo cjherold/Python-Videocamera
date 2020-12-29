@@ -21,6 +21,26 @@ sudo apt install python3-opencv
 ```
 
 ##### Running
+###### configuring main()
+```python
+def main():
+    # check for cameras use print_working_cameras() method
+    camera.print_working_cameras()
+```
+ ###### then you can use an index from this list as the webcam index in VideoCamera()
+```python
+def main():
+    """
+    VideoCamera(    webcam_index, 
+                    file_extension, 
+                    fourcc, 
+                    playback_speed, 
+                    seconds_of_recording)
+    """
+    camera = VideoCamera(1, 'mp4', 'mp4v', 10, 20)
+    camera.record_loop()
+```
+
 ```bash
 # after configuring VideoCamera in main()
 python3 video_camera.py
